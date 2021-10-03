@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rm -rf www && webpack --mode=production"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

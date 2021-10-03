@@ -1,0 +1,51 @@
+{
+  "name": "spritesmith-loader",
+  "version": "0.0.1",
+  "description": "webpack-loader of spritesmith",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yj1438/spritesmith-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "tileset",
+    "spritesmith"
+  ],
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0",
+    "webpack-cli": "^3.0.0 || ^4.0.0"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "author": "yinjie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yj1438/spritesmith-loader/issues"
+  },
+  "homepage": "https://github.com/yj1438/spritesmith-loader#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "loader-utils": "^2.0.0",
+    "pngquant-bin": "^6.0.0",
+    "spritesheet-templates": "^10.5.2",
+    "spritesmith": "^3.4.0",
+    "yaml-js": "^0.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
